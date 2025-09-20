@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 0 2em;
+}
+
+.read-the-docs {
+  color: #b5b5b5;
+}
+
+.project-link {
+  padding-right: 1rem;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.wavy-line {
+  margin: 1.5rem 0;
+  width: 100%;
+  height: 4px;
+  background: repeating-linear-gradient(
+    90deg,
+    #48495e 0 10px,
+    transparent 10px 20px
+  );
+  border-radius: 2px;
+}
+
+.project-item {
+  justify-self: left;
+  text-align: left;
+}
+
+.small-image {
+  margin-left: 1rem;
+  width: 10rem;
+  height: 10rem;
+  border: 0.4rem solid #60769f;
+  border-radius: 50% 40% 50% 40% / 40% 50% 40% 50%;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+}
