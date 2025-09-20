@@ -1,4 +1,3 @@
-
 #### Run Locally
 
 ```bash
@@ -23,7 +22,7 @@ The deploy script builds the project and pushes it to the gh-pages branch:
 npm run deploy
 ```
 
-
 #### Todos
+
 - cute cursor
 - add figma links for some uxui designs
