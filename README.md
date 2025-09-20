@@ -22,6 +22,8 @@ The deploy script builds the project and pushes it to the gh-pages branch:
 npm run deploy
 ```
 
+might need to add the `base: "/",` in vite config
+
 #### Todos
 
 - cute cursor
