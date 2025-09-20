@@ -25,11 +25,13 @@ a:hover {
 body {
   display: flex;
   place-items: center;
-  min-width: 320px;
   min-height: 100vh;
   font-family: "Courier New", Courier, monospace;
   margin: 0 auto;
-  width: 50rem;
+  width: 100%;
+  max-width: 50rem;
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
 
 h1 {

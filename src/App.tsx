@@ -17,14 +17,14 @@ const projects: Project[] = [
     title: "Texas Lady Crushers",
     year: "2023 - 2025",
     description:
-      "Managed the website and led project management, organized team workflows using Notion, and set up automations for the Slack community and newsletter to enhance engagement and streamline operations.",
+      "Managed the website, organized team workflows using Notion, and set up automations for the Slack community and newsletter to enhance engagement and streamline operations.",
     links: [{ type: "Website", url: "https://texasladycrushers.com" }],
   },
   {
     title: "City of San Antonio R&D League",
     year: "2021",
     description:
-      "Led project management and provided engineering input for the R&D On-Demand portal, coordinating city departments, data scientists, and researchers to tackle community challenges and enable evidence-based policymaking for 1.5 million residents.",
+      "Led project R&D project and provided engineering input for the R&D On-Demand portal, coordinating city departments, data scientists, and researchers to tackle community challenges and enable evidence-based policymaking for 1.5 million residents.",
     links: [
       { type: "Website", url: "https://researchpartnerships.sanantonio.gov/" },
       {
@@ -58,24 +58,24 @@ function App() {
       <div className="card">
         <div className="about">
           <div>
+            <img
+              src="/angry-octopus-crown.jpeg"
+              alt="angry cute octopus sitting on top of a software engineer's head"
+              className="small-image"
+              draggable={false}
+              onMouseDown={(e) => e.preventDefault()}
+              onContextMenu={(e) => e.preventDefault()}
+            />
             <p>
               I'm a software engineer at a fintech, building responsive and
               accessible applications that simplify the loan experience for
               users.
             </p>
             <p>
-              Outside of work, I stay busy by climbing and hiking, while also
-              enjoying hands-on hobbies like crocheting and sewing.
+              Outside of work, I like to stay busy by climbing and hiking, while
+              also enjoying hands-on hobbies like crocheting and sewing.
             </p>
           </div>
-          <img
-            src="/angry-octopus-crown.jpeg"
-            alt="angry cute octopus sitting on top of a software engineer's head"
-            className="small-image"
-            draggable={false}
-            onMouseDown={(e) => e.preventDefault()}
-            onContextMenu={(e) => e.preventDefault()}
-          />
         </div>
         <p className="read-the-docs">
           Explore my{" "}

@@ -40,15 +40,27 @@
   text-align: left;
 }
 
+.project-title {
+  text-align: left;
+}
+
 .small-image {
-  margin-left: 1rem;
+  float: right;
   width: 10rem;
   height: 10rem;
   border: 0.4rem solid #60769f;
   border-radius: 50% 40% 50% 40% / 40% 50% 40% 50%;
+  margin-left: 1rem;
 }
 
 .about {
-  display: flex;
-  justify-content: space-between;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .small-image {
+    float: none;
+    display: block;
+    margin: 0 auto 1rem auto;
+  }
 }
