@@ -1,30 +1,19 @@
-#### Run Locally
+# trantiffany.com
 
-```bash
-npm run dev
-```
+Quick spiel about me: a showcase of my experience, skills, and a list of cool things I’ve worked on or been part of outside of work 👩🏻‍💻.
 
-### Deployment Instructions for GitHub Pages
+#### This site was built with **React**, **TypeScript**, and **Vite**.
 
-This project uses Vite and gh-pages to deploy to GitHub Pages.
+<br>
 
-#### 1. Install dependencies
+Thanks for visiting!
 
-```bash
-npm i
-```
+<br>
 
-#### 2. Deploy the site
+---
 
-The deploy script builds the project and pushes it to the gh-pages branch:
+### Setup
 
-```bash
-npm run deploy
-```
-
-might need to add the `base: "/",` in vite config
-
-#### Todos
-
-- cute cursor
-- add figma links for some uxui designs
+1. Clone Repo Locally
+2. Install dependencies: `npm install`
+3. Run locally: `npm run dev`
